@@ -38,7 +38,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 ```js
 {
   "extends": [
-    "wesbos"
+    "slightlyoffbeat"
   ],
   "rules": {
     "no-console": 2,
@@ -85,7 +85,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 Start fresh. Sometimes global modules can goof you up. This will remove them all:
 
 ```
-npm remove --global eslint-config-wesbos babel-eslint eslint eslint-config-prettier eslint-config-airbnb eslint-plugin-html eslint-plugin-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-plugin-react-hooks
+npm remove --global eslint-config-slightlyoffbeat babel-eslint eslint eslint-config-prettier eslint-config-airbnb eslint-plugin-html eslint-plugin-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-plugin-react-hooks
 ```
 
 To do the above for local, omit the `--global` flag.
