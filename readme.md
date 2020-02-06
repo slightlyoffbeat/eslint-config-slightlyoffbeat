@@ -7,7 +7,7 @@ This is inspired (stolen) from Wes Bos.
 ## Installing local / per project
 
 ```
-npx install-peerdeps --save-dev https://github.com/slightlyoffbeat/eslint-config.git
+npx install-peerdeps --dev eslint-config-slightlyoffbeat
 ```
 
 Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
