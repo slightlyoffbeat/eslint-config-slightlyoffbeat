@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-slightlyoffbeat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint and Prettier Config",
   "keywords": [
     "javascript",
@@ -15,17 +15,17 @@
   "author": "Dan Brown <dan@danvswild.com>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.19.1"
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "prettier": "^2.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

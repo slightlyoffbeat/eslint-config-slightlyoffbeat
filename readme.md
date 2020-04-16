@@ -91,3 +91,15 @@ npm remove --global eslint-config-slightlyoffbeat babel-eslint eslint eslint-con
 To do the above for local, omit the `--global` flag.
 
 Then if you are using a local install, remove your `package-lock.json` file and delete the `node_modules/` directory.
+
+## Updating
+
+1: run the following
+```
+npx install-peerdeps --dev eslint-config-airbnb --yarn
+```
+2: check for dependancies that aren't a part of eslint-config-airbnb.
+```
+npm info "eslint-config-airbnb@latest" peerDependencies
+```
+3: Then make sure you update peerDependancies in packages.json
