@@ -67,17 +67,18 @@ Once you have done one, or both, of the above installs. You probably want your e
 "editor.formatOnSave": true,
 // turn it off for JS and JSX, we will do this via eslint
 "[javascript]": {
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 },
 "[javascriptreact]": {
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 },
 // tell the ESLint plugin to run on save
 "editor.codeActionsOnSave": {
   "source.fixAll": true
 },
-// Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-"prettier.disableLanguages": ["javascript", "javascriptreact"],
+
 ```
 
 ## Troubleshooting
