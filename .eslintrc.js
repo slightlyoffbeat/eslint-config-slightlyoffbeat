@@ -1,12 +1,10 @@
 module.exports = {
   extends: ['airbnb', 'prettier'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2020,
-    // Can I remove these now?
-    ecmaFeatures: {
-      impliedStrict: true,
-      classes: true,
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ['@babel/preset-react'],
     },
   },
   env: {
@@ -29,7 +27,7 @@ module.exports = {
     'no-unused-vars': [
       1,
       {
-        ignoreSiblings: true,
+        ignoreRestSiblings: true,
         argsIgnorePattern: 'res|next|^err',
       },
     ],
@@ -68,6 +66,7 @@ module.exports = {
     'react/prefer-stateless-function': 0,
     'react/forbid-prop-types': 0,
     'react/no-unescaped-entities': 0,
+    'react/function-component-definition': 0,
     'jsx-a11y/accessible-emoji': 0,
     'react/require-default-props': 0,
     'react/jsx-filename-extension': [

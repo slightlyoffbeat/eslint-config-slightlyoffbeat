@@ -96,11 +96,15 @@ Then if you are using a local install, remove your `package-lock.json` file and 
 ## Updating
 
 1: run the following
+
 ```
-npx install-peerdeps --dev eslint-config-airbnb --yarn
+npx install-peerdeps --dev eslint-config-airbnb
 ```
+
 2: check for dependancies that aren't a part of eslint-config-airbnb.
+
 ```
 npm info "eslint-config-airbnb@latest" peerDependencies
 ```
+
 3: Then make sure you update peerDependancies in packages.json
